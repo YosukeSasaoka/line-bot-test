@@ -9,6 +9,10 @@ gem 'dotenv-rails'
 gem 'faraday'
 gem 'faraday_middleware'
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 # heroku用
 group :production do
   gem 'rails_12factor'
