@@ -12,4 +12,5 @@ gem 'faraday_middleware'
 # heroku用
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
