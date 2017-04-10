@@ -8,6 +8,8 @@ gem "rails"
 gem 'dotenv-rails'
 gem 'faraday'
 gem 'faraday_middleware'
+gem 'jquery-rails'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3'
